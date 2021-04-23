@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="uft-8">
+</head> 
+<style>
+.image {
+    padding: 80px;
+}
+image:hover {
+                  box-shadow: 20px 14px 8px 0 rgb(0 0 0 / 12%), 0 6px 20px 0 rgb(0 0 0 / 25%);
+                 background-color:black;
+           }
+body{
+	margin: 0;
+	font-family: tahoma;
+	font-size: 1.5em;
+	} 
+h2 {
+    position: absolute;
+    background-color:#67FF33;
+    font-size: 50px;
+    color: green;
+    top:170%;
+    right:540px;
+    border-radius: 10px;
+ 
+}
+h2:hover {
+            box-shadow: 20px 14px 8px 0 rgb(0 0 0 / 12%), 0 6px 20px 0 rgb(0 0 0 / 25%);
+          }
+h3 {
+     text-align:center;
+     }
+.logo {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    }
+.logo:hover {
+    box-shadow: 2px 2px 5px red;
+}
+page {
+    position: absolute;
+    top: 40%;
+}
+page:hover {
+                 box-shadow: 20px 14px 8px 0 rgb(0 0 0 / 12%), 0 6px 20px 0 rgb(0 0 0 / 25%);
+                     background-color: #00000054;
+                  color: white;
+          }
+.back {
+    position: absolute;
+    top: 8%;
+    right: 1.5%;  
+ }
+back a:hover {
+           outline:none;
+           }
+.input {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right:300px;
+    outline:none;
+    font-size:50px;
+   }
+input[type="text"] {
+    font-size: 50px;
+    outline: none;
+    background-color:#00000030;
+    box-shadow: 10px 10px 50px red;
+    }
+.back a {
+    background-color: black;
+    color: beige;
+  }
+a:hover {
+           background-color:green;
+          color: white;
+          padding: 20px;
+           outline:none;
+         }
+
+.image {
+    background-color: #000000a1;
+ }
+h1 {
+    box-shadow: 10px 10px 50px red;
+}
+pg {
+     font-size:20px;
+     }
+pg {
+    background-color: black;
+    color: white;
+      }
+.col-s-6.col-l-4 {
+    background-color: #00000069;
+}
+.col-s-12.col-l-4 {
+    background-color: #00000069;
+    border-radius: 10px;
+}
+marquee {
+    box-shadow: 5px 5px 10px red;
+}
+/* mobile */
+
+		[class*="col-"] {
+		  width: 100%;	
+		  float:left;		
+		}		
+
+		/* tablet */
+
+		@media only screen and (min-width:600px) {
+
+
+		  .col-s-1 {width: 8.33%;}
+  		  .col-s-2 {width: 16.66%;}
+  		  .col-s-3 {width: 25%;}
+  		  .col-s-4 {width: 33.33%;}
+  		  .col-s-5 {width: 41.66%;}
+  		  .col-s-6 {width: 50%;}
+  		  .col-s-7 {width: 58.33%;}
+  		  .col-s-8 {width: 66.66%;}
+  		  .col-s-9 {width: 75%;}
+  		  .col-s-10 {width: 83.33%;}
+  		  .col-s-11 {width: 91.66%;}
+  		  .col-s-12 {width: 100%;}
+
+		}
+
+		/* desktop */
+
+		@media only screen and (min-width:768px) {
+
+
+		  .col-l-1 {width: 8.33%;}
+  		  .col-l-2 {width: 16.66%;}
+  		  .col-l-3 {width: 25%;}
+  		  .col-l-4 {width: 33.33%;}
+  		  .col-l-5 {width: 41.66%;}
+  		  .col-l-6 {width: 50%;}
+  		  .col-l-7 {width: 58.33%;}
+  		  .col-l-8 {width: 66.66%;}
+  		  .col-l-9 {width: 75%;}
+  		  .col-l-10 {width: 83.33%;}
+  		  .col-l-11 {width: 91.66%;}
+  		  .col-l-12 {width: 100%;}
+
+
+		}
+.navbar{
+background-color: black;
+overflow: hidden;
+box-shadow: 10px 10px 20px red;
+}
+
+.navbar a {
+text-decoration: none;
+color: white;
+padding: 20px;
+float: left;
+margin: 10;
+}
+
+.icon{
+float: right;
+display:none;
+}
+
+.navbar a:hover {
+color: red;
+
+}
+
+.active {
+background-color: black;
+color: white;
+}
+
+.bishnu::after{
+clear: both;
+content="";
+display: table;
+}		
+@media only screen and (max-width: 600px){
+
+
+
+.navbar a:not(:first-child) {
+	display:none;
+	}
+
+	.navbar {
+	position: relative;
+	}
+
+	.navbar a.icon {
+	display: block;
+	float:right;
+
+
+	position: absolute;
+             top: 0;
+            right: 0;
+
+								
+}
+naver a:hover {
+     color: green;
+     text-shadow: 3px 4px 10px green;
+}
+div.navbar.clicked a {				
+display: block;
+float: none;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+</style>
+<body>
+<div classs="main">
+      <h1>TIME TABLE</h1></a>
+    <div class="navbar "id="nav">
+     <a href="#"><i class="fa fa-home"class="active"></i>HOME</a>
+      <a href="#"><i class="fa fa-address-card"></i>ABOUT</a>
+       <a href="#"><i class="fa fa-address-book"></i>CONTECT</a>
+       <a href="#"><i class="fa fa-shopping-bag"></i>BUY</a>
+        <a href="#"><i class="fa fa-image"></i>PHOTOS</a>
+	
+			<a href="javascript:void(0);" class="icon" onclick="handleClick()">
+				<i class="fa fa-bars"></i>
+			</a>
+			</div>
+</div>
+
+<script>
+
+
+			function handleClick(){
+
+				let nav = document.getElementById("nav");
+
+
+				if(nav.className === "navbar"){
+					
+					nav.className += " clicked";
+
+
+				}	
+				else{
+					nav.className = "navbar";
+
+					
+			}
+</script>
+<marquee><hr></marquee><hr>
+<div class="image">
+<img src="1.png">
+ </div>
+<div class="button">
+<h2>COMPUTER</h2>
+</div>
+<div class="input">
+<input type="text">
+<button>search</button>
+</div>
+   <div class="col-s-6 col-l-4">
+ <img src="1.png"height="300">
+         </div>
+<div class="col-s-6 col-l-4">
+<img src="1.png"height="300">
+         </div>
+<div class="col-s-12 col-l-4">
+ <img src="1.png"height="300">
+         </div> 	
+</div>
+  <div class="col-s-6 col-l-4">
+   <pg>A website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server.     Notable examples are wikipedia.org, google.com, and amazon.com. All publicly accessible websites collectively constitute the World Wide Web. Wikipedia.A     website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server</pg>
+                                                  </div>
+ <div class="col-s-6 col-l-4">
+   <pg>A website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server.     Notable examples are wikipedia.org, google.com, and amazon.com. All publicly accessible websites collectively constitute the World Wide Web. Wikipedia.A     website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server</pg>
+                                                  </div>
+ <div class="col-s-12 col-l-4">
+   <pg>A website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server.     Notable examples are wikipedia.org, google.com, and amazon.com. All publicly accessible websites collectively constitute the World Wide Web. Wikipedia.A     website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server</pg>
+                                                  </div>
+</div>
+<rd>
+<div class="back">
+<a href="index.html">BACK</a>
+</div>
+<div class="logo">
+<marquee  scrollamount="30"><img src="logodon.png"></marquee>
+</div>
+<page>IF something is done right first time, it is done perfectly every time, and no time and money is wasted correcting errors caused by doing it too fast or without controlling quality.</page>
+</body>
+</html>

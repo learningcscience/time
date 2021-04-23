@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="uft-8">
+</head> 
+<style>
+</style>
+<body>
+ <h2>TABLE</h2>
+ <table>
+  <tr>
+  <th>BISHNU</th>
+   <th>BISHNU</th>
+  <th>BISHNU</th>
+   <th>BISHNU</th>
+   <th>BISHNU</th>    
+</tr>
+</body>
+</html>
